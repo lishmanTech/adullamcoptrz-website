@@ -13,9 +13,9 @@ export default function Footer() {
         <div className="footer-about"><Logo light/><p>Practical security and risk solutions designed to help people, places and businesses move forward with confidence.</p><div className="socials"><a href="https://www.linkedin.com" aria-label="LinkedIn"><Linkedin size={17}/></a><a href="https://www.instagram.com" aria-label="Instagram"><Instagram size={17}/></a><a href="https://www.facebook.com" aria-label="Facebook"><Facebook size={17}/></a></div></div>
         <div className="footer-col"><h4>Explore</h4><a href="/about">About us</a><a href="/services">Our services</a><a href="/industries">Industries</a><a href="/insights">Insights</a><a href="/careers">Careers</a></div>
         <div className="footer-col"><h4>Solutions</h4><a href="/services/manned-security">Manned security</a><a href="/services/electronic-security">Electronic security</a><a href="/services/risk-advisory">Risk advisory</a><a href="/services/secure-mobility">Secure mobility</a><a href="/services/security-training">Security training</a></div>
-        <div className="footer-col footer-contact"><h4>Get in touch</h4><p><Mail size={16}/> hello@fortresspoint.example</p><p><Phone size={16}/> +234 (0) 800 000 0000</p><p><MapPin size={16}/> Nigeria</p><a className="footer-link" href="/contact">Contact our team <ArrowUpRight size={15}/></a></div>
+        <div className="footer-col footer-contact"><h4>Get in touch</h4><p><Mail size={16}/> info@adullamcoptrz.com</p><p><Phone size={16}/> +234 (0) 800 000 0000</p><p><MapPin size={16}/> Nigeria</p><a className="footer-link" href="/contact">Contact our team <ArrowUpRight size={15}/></a></div>
       </div>
-      <div className="container footer-bottom"><span>© {new Date().getFullYear()} FortressPoint. All rights reserved.</span><div><a href="/privacy">Privacy policy</a><a href="/terms">Terms of use</a></div><span>Security. Clarity. Confidence.</span></div>
+      <div className="container footer-bottom"><span>© {new Date().getFullYear()} ADULLAM COPTRZ. All rights reserved.</span><div><a href="/privacy">Privacy policy</a><a href="/terms">Terms of use</a></div><span>Drone Technology. Geospatial Intelligence. Strategic Security.</span></div>
     </footer>
   );
 }

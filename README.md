@@ -72,7 +72,7 @@ For production, implement server-side validation, spam protection/rate limiting,
 ## Before launch
 
 1. Replace the fictional FortressPoint identity with your authorised brand assets and company details.
-2. Replace `hello@fortresspoint.example` and the sample phone number.
+2. Replace `info@adullamcoptrz.com` and the sample phone number.
 3. Review all service claims and sample editorial dates/copy.
 4. Replace the remote Unsplash image URLs with approved, licensed assets. Remote images require an internet connection.
 5. Add your actual privacy policy and terms pages, or remove their footer links until those pages exist.

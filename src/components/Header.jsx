@@ -18,7 +18,7 @@ export default function Header() {
   const [servicesOpen, setServicesOpen] = useState(false);
   return (
     <header className="site-header">
-      <div className="topline"><div className="container topline-inner"><span>Security built around people.</span><div><a href="mailto:hello@fortresspoint.example">hello@fortresspoint.example</a><span className="topline-dot" /> <span>Available for new enquiries</span></div></div></div>
+      <div className="topline"><div className="container topline-inner"><span>Security built around people.</span><div><a href="mailto:info@adullamcoptrz.com">info@adullamcoptrz.com</a><span className="topline-dot" /> <span>Available for new enquiries</span></div></div></div>
       <div className="container nav-inner">
         <Logo />
         <button className="mobile-menu" aria-label={open ? "Close navigation" : "Open navigation"} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
