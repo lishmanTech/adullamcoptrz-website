@@ -1,57 +1,108 @@
 export const services = [
   {
     number: "01",
-    title: "Manned Security",
-    short: "People-first protection for the places where life and business happen.",
-    description: "Professional security personnel, site supervision and clear operating procedures designed around your environment.",
+    title: "Drone Surveillance and Intelligence",
+    short: "Aerial monitoring and intelligence for security and emergency response.",
+    description:
+      "Aerial monitoring, intelligence, surveillance and reconnaissance (ISR), and rapid aerial assessment for security and emergency response.",
     icon: "shield",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=85",
-    features: ["Security personnel and supervision", "Access control and visitor management", "Site-specific operating procedures", "Incident reporting and escalation"]
+    image: "/src/assets/images/manned.jpeg",
+    features: [
+      "Security personnel and supervision",
+      "Access control and visitor management",
+      "Site-specific operating procedures",
+      "Incident reporting and escalation"
+    ]
   },
   {
     number: "02",
-    title: "Electronic Security",
-    short: "Connected technology that helps you see more and respond sooner.",
-    description: "Integrated surveillance and access solutions that support visibility, control and better-informed decisions.",
+    title: "Geospatial Intelligence and GIS",
+    short: "Geospatial analysis and mapping for informed planning and decision-making.",
+    description:
+      "Crime hotspot mapping, terrain analysis, route assessment, land-use mapping, and interactive geospatial intelligence solutions.",
     icon: "camera",
-    image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1200&q=85",
-    features: ["CCTV and video monitoring", "Access control systems", "Intrusion detection", "System planning and maintenance"]
+    image: "/src/assets/images/manned.jpeg",
+    features: [
+      "CCTV and video monitoring",
+      "Access control systems",
+      "Intrusion detection",
+      "System planning and maintenance"
+    ]
   },
   {
     number: "03",
-    title: "Risk Advisory",
-    short: "Understand your exposure and build a practical plan to reduce it.",
-    description: "Risk reviews and security planning that translate complex concerns into clear, actionable recommendations.",
+    title: "Security Analytics and Data Fusion",
+    short: "Integrated intelligence that supports threat assessment and early warning.",
+    description:
+      "Integration of drone imagery, open-source intelligence, historical incident data, and geospatial information to support threat assessment and early warning.",
     icon: "target",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=85",
-    features: ["Security risk assessments", "Business continuity planning", "Travel and site risk reviews", "Policy and procedure development"]
+    image: "/src/assets/images/manned.jpeg",
+    features: [
+      "Security risk assessments",
+      "Business continuity planning",
+      "Travel and site risk reviews",
+      "Policy and procedure development"
+    ]
   },
   {
     number: "04",
-    title: "Secure Mobility",
-    short: "Thoughtful journey planning and support for people on the move.",
-    description: "Journey management and movement support for teams, visitors and executives operating across changing environments.",
+    title: "Critical Infrastructure Monitoring",
+    short: "Drone-enabled monitoring and inspection of essential infrastructure.",
+    description:
+      "Drone-enabled inspection and monitoring of oil and gas pipelines, power lines, telecommunications infrastructure, and transport corridors.",
     icon: "car",
-    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=85",
-    features: ["Journey risk planning", "Movement coordination", "Route and destination reviews", "Executive movement support"]
+    image: "/src/assets/images/manned.jpeg",
+    features: [
+      "Journey risk planning",
+      "Movement coordination",
+      "Route and destination reviews",
+      "Executive movement support"
+    ]
   },
   {
     number: "05",
-    title: "Workplace Solutions",
-    short: "Create safer, smoother experiences for staff, guests and customers.",
-    description: "Operational support that helps organisations manage the everyday details of a secure and welcoming workplace.",
+    title: "Border and Corridor Surveillance Support",
+    short: "Geospatial mapping and situational awareness for vulnerable corridors.",
+    description:
+      "Geospatial mapping and situational awareness solutions that support border management and the monitoring of vulnerable corridors.",
     icon: "users",
-    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85",
-    features: ["Front-of-house support", "Visitor experience", "Workplace operations", "Service quality reviews"]
+    image: "/src/assets/images/manned.jpeg",
+    features: [
+      "Front-of-house support",
+      "Visitor experience",
+      "Workplace operations",
+      "Service quality reviews"
+    ]
   },
   {
     number: "06",
-    title: "Security Training",
-    short: "Build confident teams with practical, role-relevant learning.",
-    description: "Training and awareness programmes that help people recognise risk, follow procedures and respond with confidence.",
+    title: "Disaster Response and Emergency Mapping",
+    short: "Aerial intelligence and mapping for disaster management and humanitarian response.",
+    description:
+      "Aerial damage assessment, flood mapping, search-and-rescue support, evacuation planning, and humanitarian response mapping.",
     icon: "graduation",
-    image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=85",
-    features: ["Security awareness", "Emergency response basics", "Customer-facing team training", "Scenario-based learning"]
+    image: "/src/assets/images/manned.jpeg",
+    features: [
+      "Security awareness",
+      "Emergency response basics",
+      "Customer-facing team training",
+      "Scenario-based learning"
+    ]
+  },
+  {
+    number: "07",
+    title: "Land-Use Mapping and Conflict Prevention",
+    short: "Geospatial intelligence for land-use planning and conflict prevention.",
+    description:
+      "Geospatial analysis of farmland, grazing routes, land-use pressures, and potential conflict hotspots to support planning and prevention.",
+    icon: "target",
+    image: "/src/assets/images/manned.jpeg",
+    features: [
+      "Farmland and grazing route mapping",
+      "Land-use pressure analysis",
+      "Conflict hotspot identification",
+      "Geospatial planning and prevention"
+    ]
   }
 ];
 
@@ -63,7 +114,25 @@ export const industries = [
 ];
 
 export const insights = [
-  { category: "INSIGHT", date: "June 12, 2026", title: "Building a security culture that people actually use", image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85", read: "4 min read" },
-  { category: "GUIDE", date: "May 28, 2026", title: "Five questions to ask before reviewing your site security", image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85", read: "6 min read" },
-  { category: "PERSPECTIVE", date: "May 03, 2026", title: "Why risk planning starts with understanding people", image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=85", read: "5 min read" },
+  {
+    category: "INSIGHT",
+    date: "June 12, 2026",
+    title: "Building a security culture that people actually use",
+    image: "/src/assets/images/serviceEx.jpeg",
+    read: "4 min read"
+  },
+  {
+    category: "GUIDE",
+    date: "May 28, 2026",
+    title: "Five questions to ask before reviewing your site security",
+    image: "/src/assets/images/Servicetwo.jpeg",
+    read: "6 min read"
+  },
+  {
+    category: "PERSPECTIVE",
+    date: "May 03, 2026",
+    title: "Why risk planning starts with understanding people",
+    image: "/src/assets/images/serviveone.jpeg",
+    read: "5 min read"
+  },
 ];
