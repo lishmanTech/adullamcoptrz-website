@@ -2,7 +2,7 @@
 import mannedImage from "./assets/images/manned.jpeg";
 import serviceExImage from "./assets/images/serviceEx.jpeg";
 import serviceTwoImage from "./assets/images/Servicetwo.jpeg";
-import serviceOneImage from "./assets/images/serviveone.jpeg";
+import serviceOneImage from "./assets/images/Serviveone.jpeg";
 
 export const services = [
   {
