@@ -1,3 +1,9 @@
+
+import mannedImage from "./assets/images/manned.jpeg";
+import serviceExImage from "./assets/images/serviceEx.jpeg";
+import serviceTwoImage from "./assets/images/Servicetwo.jpeg";
+import serviceOneImage from "./assets/images/serviveone.jpeg";
+
 export const services = [
   {
     number: "01",
@@ -6,7 +12,7 @@ export const services = [
     description:
       "Aerial monitoring, intelligence, surveillance and reconnaissance (ISR), and rapid aerial assessment for security and emergency response.",
     icon: "shield",
-    image: "/src/assets/images/manned.jpeg",
+    image: mannedImage,
     features: [
       "Security personnel and supervision",
       "Access control and visitor management",
@@ -21,7 +27,7 @@ export const services = [
     description:
       "Crime hotspot mapping, terrain analysis, route assessment, land-use mapping, and interactive geospatial intelligence solutions.",
     icon: "camera",
-    image: "/src/assets/images/manned.jpeg",
+    image: serviceExImage,
     features: [
       "CCTV and video monitoring",
       "Access control systems",
@@ -36,7 +42,7 @@ export const services = [
     description:
       "Integration of drone imagery, open-source intelligence, historical incident data, and geospatial information to support threat assessment and early warning.",
     icon: "target",
-    image: "/src/assets/images/manned.jpeg",
+    image: serviceOneImage,
     features: [
       "Security risk assessments",
       "Business continuity planning",
@@ -51,7 +57,7 @@ export const services = [
     description:
       "Drone-enabled inspection and monitoring of oil and gas pipelines, power lines, telecommunications infrastructure, and transport corridors.",
     icon: "car",
-    image: "/src/assets/images/manned.jpeg",
+    image: serviceTwoImage,
     features: [
       "Journey risk planning",
       "Movement coordination",
@@ -66,7 +72,7 @@ export const services = [
     description:
       "Geospatial mapping and situational awareness solutions that support border management and the monitoring of vulnerable corridors.",
     icon: "users",
-    image: "/src/assets/images/manned.jpeg",
+    image: serviceExImage,
     features: [
       "Front-of-house support",
       "Visitor experience",
@@ -81,7 +87,7 @@ export const services = [
     description:
       "Aerial damage assessment, flood mapping, search-and-rescue support, evacuation planning, and humanitarian response mapping.",
     icon: "graduation",
-    image: "/src/assets/images/manned.jpeg",
+    image: mannedImage,
     features: [
       "Security awareness",
       "Emergency response basics",
@@ -96,7 +102,7 @@ export const services = [
     description:
       "Geospatial analysis of farmland, grazing routes, land-use pressures, and potential conflict hotspots to support planning and prevention.",
     icon: "target",
-    image: "/src/assets/images/manned.jpeg",
+    image: serviceOneImage,
     features: [
       "Farmland and grazing route mapping",
       "Land-use pressure analysis",
@@ -118,21 +124,21 @@ export const insights = [
     category: "INSIGHT",
     date: "June 12, 2026",
     title: "Building a security culture that people actually use",
-    image: "/src/assets/images/serviceEx.jpeg",
+    image: serviceExImage,
     read: "4 min read"
   },
   {
     category: "GUIDE",
     date: "May 28, 2026",
     title: "Five questions to ask before reviewing your site security",
-    image: "/src/assets/images/Servicetwo.jpeg",
+    image: mannedImage,
     read: "6 min read"
   },
   {
     category: "PERSPECTIVE",
     date: "May 03, 2026",
     title: "Why risk planning starts with understanding people",
-    image: "/src/assets/images/serviveone.jpeg",
+    image: serviceOneImage,
     read: "5 min read"
   },
 ];
